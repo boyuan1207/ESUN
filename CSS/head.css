@@ -1,0 +1,48 @@
+nav{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    height:54px;
+    background-color: white;
+}
+.nav_ul{
+    width: 975px;
+    height: 50px;
+    height:auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    
+}
+nav a{
+    color: inherit; 
+    font-size: 1.2rem;
+    text-decoration: none;  
+    display: block; 
+}
+.brand{
+    width: 350px;
+    height: 50px;
+}
+.brand img{
+    height: 50px;
+}
+.seacher_box{
+    width: 350px;
+    height: 50px;
+}
+.seacher_box input{
+    height: 25px;
+    width: 200px;
+    position: absolute;
+    top: 25%;
+}
+.profile_list{
+    width: 350px;
+    height: 50px;
+}
+.homepage_icon{
+    float:right;
+    position: relative;
+    margin-top: 6%;
+}

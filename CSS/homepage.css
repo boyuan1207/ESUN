@@ -1,0 +1,485 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Noto Sans TC', sans-serif;
+    
+}
+p,a,input,label,textarea,span,ul,li{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+h1{
+    
+    font-size: 80px;
+}
+.trip .lead{
+    font-size: 30px;
+}
+
+.tripbtn{
+    background: black;
+    color:white;
+    padding: 9px 26px;
+    border-radius: 20px;
+}
+
+
+header li{
+
+    margin: 0 12px;
+}
+ .trip{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    
+}
+.aaa{
+    position: relative;
+    
+    height:100%;
+    
+    
+}
+
+.aaa img{
+    
+    
+    display: block;
+    margin: auto;
+    height: 930px;
+    
+    
+
+    
+}
+
+    
+    
+
+
+/*------------------------------------------------------------------------------*/
+body{
+    background-color: rgba(240, 239, 239, 0.514);
+}
+.art{
+    width: 945px;
+    height:600px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.1px solid #31303038;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top:84px;
+}
+.artmain{
+    display: inline-block;
+    vertical-align: top;
+    width: 600px;
+    height: 600px;
+    margin: 0px;
+}
+.artmain-photo{
+    width: 600px;
+    height: 600px;
+    position: relative;
+    border-right: 0.1px solid #31303038;
+}
+.artmain-photo img{
+    max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+#imginputbt{
+    width: 0px;
+    height: 0px;
+}
+.imginput{
+    width: 600px;
+    height: 600px;
+}
+.content{
+    display: inline-block;
+    vertical-align: top;
+    width: 335px;
+    max-height: 600px;
+    min-height: 450px;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+}
+.content-header{
+    display: inline-block;
+    width: 335px;
+    height: 50px;
+    text-align: left;
+    border-bottom: 0.1px solid #31303038;
+    position: fixed;
+}
+.Header{
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    position: relative;
+    top:2px;
+}
+.Header img{
+    width: 45px;
+    height: 45px;
+    border-radius: 48%;
+}
+.Username{
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    left: 20px;
+}
+.Artname{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 12.5px;
+    width: auto;
+}
+.contentU{
+    display: inline-block;
+    width: 335px;
+    max-height: 500px;
+    min-height:350px;
+    top:50px;
+    position: relative;
+}
+.contentp{
+    width:335px;
+    height:250px;
+    overflow-y:scroll;
+    border-bottom: 0.1px solid #31303038;
+}
+.Comment{
+    height: 250px;
+    text-align: left;
+    overflow-y:scroll;
+}
+.Commentbox{
+    height: auto;
+    min-height: 40px;
+    width:auto;
+    word-break: break-all; 
+    border-top: 0.1px solid #31303038;
+    border-bottom: 0.1px solid #31303038;
+}
+.Usercom{
+    height: auto;
+}
+.Comhead{
+    vertical-align: top;
+    width: 35px;
+    position: relative;
+    top:2px;
+}
+.Comhead img{
+    width: 35px;
+    height: 35px;
+    border-radius: 48%;
+    float: left;
+}
+.Comtext{
+    vertical-align: top;
+    width: 280px;
+    height:auto;
+    position: relative;
+    left: 20px;
+    overflow-y:scroll;
+    font-size: 15px;
+}
+.Comment_input{
+    position:relative;
+    top:20px;
+    height:50px;
+    width:335px;
+}
+#comsubmit{
+    display: inline-block;
+    width:40px;
+    height:25px;
+    position: absolute;
+    top:77%;
+    left:86%;
+}
+#comtext{
+    display: inline-block;
+    resize:none;
+    width:270px;
+    height:25px; 
+    size:54px;
+    position: absolute;
+    top:70%;
+}
+.comp{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+.art a{
+    text-decoration:none;
+    color: black;
+    font-weight:bold
+    ;
+}
+.Profilehead img{
+    width: 150px;
+    height: 150px;
+    border-radius: 48%;
+}
+.Profilehead{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.result{
+    width: 900px;
+    position: relative;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: black solid 0.3px;
+}
+#pre{
+    width: 25px;
+    border-radius: 50%;
+    opacity:0.5;
+    border: 0px;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    outline: 0;
+}
+#pre:hover{
+    opacity:1;
+    border: 1px solid #9d9d9d;
+}
+#next{
+    width: 25px;
+    border-radius: 50%;
+    opacity:0.5;
+    border: 0px;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    outline: 0;
+}
+#next:hover{
+    opacity:1;
+    border: 1px solid #9d9d9d;
+}
+.Iconbox{
+    vertical-align: top;
+    height: 50px;
+    border-top: 1px solid #080808;
+    border-bottom: 1px solid #080808;
+    text-align: center;
+}
+.lbox{
+    display: inline-block;
+    /*vertical-align: auto;*/
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    position:relative;
+    top:8px;
+}
+.Icon{
+    width: 25px;
+    border: 0px;
+    background: white;
+    outline: 0;
+}
+.Icon:hover{
+    width: 30px;
+}
+.submit_article{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Profile_background{
+    width: auto;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top:84px
+}
+.article_background{
+    width: 100%;
+    height:auto;
+    position: relative;
+    top:50px;
+}
+.article_list{
+    width:870px;
+    height:auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.list_pic{
+    width: 280px;
+    height: 280px;
+    float: left;
+    padding: 5px;
+}
+.list_pic img{
+    max-width: 280px;
+    max-height: 280px;
+    width:280px;
+    height:280px;
+    background-color:white;
+}
+nav{
+    border-top: 0.1px solid #31303038;
+    border-bottom: 0.1px solid #31303038;
+    height:54px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    z-index:1;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.nav_ul{
+    width: 900px;
+    height: 50px;
+    height:auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    
+}
+nav a{
+    color: inherit; 
+    font-size: 1.2rem;
+    text-decoration: none;  
+    display: block; 
+}
+.brand{
+    width: 300px;
+    height: 50px;
+}
+.brand img{
+    height: 50px;
+}
+.seacher_box{
+    width: 300px;
+    height: 50px;
+}
+.seacher_box input{
+    height: 20px;
+    width: 170px;
+    position: relative;
+    top: 25%;
+    left:20%;
+
+}
+.profile_list{
+    width: 300px;
+    height: 50px;
+}
+.homepage_icon{
+    width: 25px;
+    height: 25px;
+    float:right;
+    position: relative;
+    margin-top: 6%;
+    margin-right: 7px;
+}
+.magnifier_icon{
+    width: 25px;
+    height: 25px;
+    float:right;
+    position: relative;
+    margin-top: 6%;
+    margin-right: 7px;
+}
+.upload_icon{
+    width: 25px;
+    height: 25px;
+    float:right;
+    position: relative;
+    margin-top: 6%;
+    margin-right: 7px;
+}
+.nav_head{
+    width: 25px;
+    height: 25px;
+    float:right;
+    position: relative;
+    margin-top: 6%;
+}
+.nav_head img{
+    width: 25px;
+    height: 25px;
+    border-radius: 48%;
+}
+#headdrop_list{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 54px;
+    left: 790px;
+    background-color:white;
+    border: 0.1px solid #31303038;
+}
+
+.form{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    top:84px;
+}
+.form form{
+    border:#aaa solid 1px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width:300px;
+	height:auto;
+}
+.error{
+    color:red;
+}
+.submitb{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+#rgpreimg{
+    width: 300px;
+    height: 300px;
+    border-radius: 48%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
+::-webkit-scrollbar-thumb {
+      background-color: rgba(240, 234, 234, 0);
+}
+
+

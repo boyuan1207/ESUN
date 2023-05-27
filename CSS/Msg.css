@@ -1,0 +1,127 @@
+.massege{/*左邊聊天室*/
+    position: absolute;
+    top: 50px;
+    font-size: 40px;
+    font-family:DFKai-sb ;
+    border:black 1px solid;
+    width:20% ;
+    height: 860px;
+    background-color: white;
+
+
+}
+.messagebar{/*訊息欄*/
+    position: absolute;
+    font-size: 50px;
+    border:black 1px solid;
+    width:70% ;
+    top: 150px;
+    left: 20% ;
+    border-left-style: none;
+
+    border-top-style: none;
+    height: 700px;
+    overflow:auto;  
+    box-sizing:border-box;
+    background-color: white;
+} 
+.messageavatar{/*訊息頭像*/
+    position: absolute;
+    font-size: 50px;
+    border:black 1px solid;
+    width:70% ;
+    top: 50px;
+    left: 20% ;
+    height: 100px;
+    border-left-style: none;
+    background-color: white;
+
+}
+.msg_border{
+    position: absolute;
+    right: 5%;
+    width: 80%;
+    top:1%;
+    height: 90%;
+
+}
+
+.atalk{
+    margin:10px; 
+ }
+ .atalk span{
+     display:inline-block;
+     background:#0181cc;
+     border-radius:10px;
+     color:#fff;
+     font-size: 30px;
+     padding:5px ;
+ }
+ .btalk{
+     margin:10px;
+     text-align:right;
+ }
+ .btalk span{
+     display:inline-block;
+     background:#ef8201;
+     border-radius:10px;
+     color:#fff;
+     font-size: 30px;
+     padding:5px ;
+ }
+.messagebar .messagetext .message_time{
+    font-size:10px;
+    color:#777;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+
+.messageinput{/*輸入欄*/
+    position: absolute;
+    font-size: 50px;
+    
+    width:70% ;
+    top: 850px;
+    left: 25% ;
+    height: 60px;
+    
+    
+}
+.rounded-circle{
+    width: 100px; ;
+}
+
+
+.messagebtn #btn{
+    position: absolute;
+    right: 7%;
+    top: 15px;
+    border-style: none;
+    
+}  
+.messageinput textarea {
+    
+    width: 90%;
+    height: 100%;
+    font-size: 20px;
+    background-color: rgb(207, 219, 243);
+    
+    border: 1px solid black;
+    border-radius:25px;
+    outline: none;
+    resize: none;
+  }
+  .messageinput ::placeholder{
+      text-align: center;
+      font-size: 40px;
+  }
+  .messageavatar img{
+      width: 60px;
+      height: 60px;
+  }
+
+  .border{
+      vertical-align: middle;
+  }

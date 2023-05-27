@@ -1,0 +1,117 @@
+.update{
+    margin-left: auto;
+    margin-right: auto;
+    border:#aaa solid 1px;
+    width: 735px;
+    height: 600px;
+    position: relative;
+    top: 84px;
+    background-color: white;   
+}
+.update_nav{
+    display: inline-block;
+}
+.update_file{
+    width: 100px;
+    height: 50px;
+    padding: 15px;
+    line-height: 50px;
+}
+.update_pswd{
+
+    width: 100px;
+    height: 50px;
+    padding: 15px;
+    line-height: 50px;
+    
+
+}
+.href_file{
+    text-decoration:none
+}
+.href_file:visited{
+    color: black;
+}
+.href_pswd{
+    text-decoration:none
+}
+.href_pswd:visited{
+    color: black;
+}
+form {
+    border-left: #aaa solid 1px;;
+    position: relative;
+    display: inline;
+    width:500px;
+    height: 600px;
+    float: right;
+    padding-left: 100px;
+    
+    }
+.update_input{
+    height: 75px;
+}
+#update_id{
+    width: 75%;
+    height: 35px;
+    border: 1px solid #9D9D9D	;
+    border-radius: 5px;
+}
+#update_password{
+    width: 75%;
+    height: 35px;
+    border: 1px solid #9D9D9D	;
+    border-radius: 5px;
+
+}
+#update_newpw{
+    width: 75%;
+    height: 35px;
+    border: 1px solid #9D9D9D	;
+    border-radius: 5px;
+
+}
+#update_newpw2{
+    width: 75%;
+    height: 35px;
+    border: 1px solid #9D9D9D	;
+    border-radius: 5px;
+
+}
+
+#update_yes{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    
+}
+#update_no{
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+
+}
+#update_email{
+    width: 75%;
+    height: 35px;
+    border: 1px solid #9D9D9D	;
+    border-radius: 5px;
+
+}
+#update_intro{
+    width: 400px; 
+height: 100px; 
+resize: none;
+ 
+}
+.update_photo{
+    height: 250px;
+}
+#update_img{
+    width: 200px;
+    height: 200px;
+    border-radius: 48%; 
+    border: 1px solid black;
+}
